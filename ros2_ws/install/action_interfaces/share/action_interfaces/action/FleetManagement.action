@@ -1,0 +1,11 @@
+# fleet_management.action
+# Definition of the Fleet Management Action
+
+# Action Goal
+int32 fleet_size          # Integer field for the fleet size
+---
+# Action Result
+string[] vehicle_routes   # Array of strings for vehicle routes
+---
+# Action Feedback
+float32 completion_percentage  # Float for the completion percentage
